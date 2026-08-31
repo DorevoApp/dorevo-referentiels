@@ -1,5 +1,5 @@
 # DOREVO LOC — communes, codes postaux et codes INSEE
-# version: 2026-08-22
+# version: 2026-08-31
 # source: API Geo (geo.api.gouv.fr), Licence Ouverte v2 — Etalab
 # colonnes: code_postal;code_insee;nom;arrondissement (vide sauf Paris, Lyon, Marseille)
 code_postal;code_insee;nom;arrondissement

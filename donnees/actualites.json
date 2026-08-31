@@ -1,0 +1,14 @@
+{
+  "version": "2026-08-31",
+  "articles": [
+    {
+      "id": "2026-08-31-bienvenue",
+      "date": "2026-08-31",
+      "titre": "Les actualités arrivent dans l’application",
+      "resume": "Cette rubrique annonce les nouveautés et les informations importantes, sans quitter Dorevo LOC.",
+      "corps": "Vous lisez la première.\n\nCe qu’on y trouvera : les **nouveautés** de chaque version, les **informations importantes** sur l’application, et les rappels utiles à votre gestion.\n\nRien n’est envoyé nulle part : l’application va simplement chercher un fichier public, quelques secondes après son ouverture, comme elle le fait déjà pour les listes officielles. Hors ligne, elle affiche la dernière version connue.",
+      "liens": [],
+      "epingle": false
+    }
+  ]
+}

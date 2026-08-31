@@ -1,0 +1,12 @@
+{
+  "application": "DOREVO LOC",
+  "objet": "referentiels",
+  "genere_le": "2026-08-31",
+  "fichiers": [
+    {"nom": "communes-codes-postaux.csv", "version": "2026-08-22", "octets": 924487, "lignes": 35494, "sha256": "MBKw6jpWfd/4iliBoev426lpbkbX5OMAcszZdguCJQs="},
+    {"nom": "zones-tendues.csv", "version": "2026-08-22", "octets": 108110, "lignes": 3690, "sha256": "950kJPlwimgNC3ms8J8xVnoF0dieabSRp1Jq2GsluY4="},
+    {"nom": "encadrement-loyers.csv", "version": "2026-08-22", "octets": 4512, "lignes": 69, "sha256": "GrtLaN+EQCa3klW2ltOFwEvg8ecpluXmPIQVRBrG3g8="},
+    {"nom": "irl.csv", "version": "2026-08-22", "octets": 1416, "lignes": 27, "sha256": "xtjFK4FCFcZHj6hvtMg4P3un65qdaeBj4ARDCe1ycZA="},
+    {"nom": "actualites.json", "version": "2026-08-31", "octets": 796, "lignes": 14, "sha256": "irX8I3IRGiv/RoyEK6ZtagUSBjaPLTUH5L/RFe3upNc="}
+  ]
+}

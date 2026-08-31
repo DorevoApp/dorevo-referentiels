@@ -1,0 +1,95 @@
+# DOREVO LOC — communes appliquant l'encadrement des loyers (loi ELAN)
+# version: 2026-08-22
+# sources: decret n. 2023-981 du 23 octobre 2023 (Pays basque), arretes prefectoraux
+#          des agglomerations concernees ; arrete du 6 janvier 2026 pour Grenoble.
+#
+# ECHEANCE — l'experimentation issue de la loi ELAN du 23 novembre 2018 arrive a son
+# terme le 23 NOVEMBRE 2026. Une prolongation de deux ans a ete decidee pour les
+# communes deja engagees. Ce fichier est donc a reverifier avant cette date.
+#
+# COLONNE application :
+#   totale     = toute la commune est concernee. La case peut etre pre-cochee.
+#   partielle  = une PARTIE seulement de la commune l'est ; le perimetre se lit
+#                adresse par adresse sur la carte annexee a l'arrete. NE PAS
+#                pre-cocher : informer, et laisser le bailleur verifier.
+#
+# GRENOBLE — COMPLET depuis le 22/08/2026. Les 21 communes du perimetre sont
+#   fixees par le decret n. 2023-1046 du 16 novembre 2023 : 13 en totalite et
+#   8 partiellement. Pour ces 8 dernieres, le territoire encadre correspond a des
+#   zones IRIS de l'INSEE listees en annexe du decret — un decoupage INFRA-COMMUNAL
+#   que ce fichier ne porte pas. D'ou `partielle` : on informe, on ne pre-coche pas.
+#   Loyers de reference : arrete prefectoral n. 38-2026-01-06-00018 du 6 janvier 2026.
+# COMMUNE FUSIONNEE — Plaine Commune compte 9 communes historiques mais 8 codes
+#   INSEE : Pierrefitte-sur-Seine a fusionne avec Saint-Denis (93066), qui porte
+#   desormais le code postal 93380. Un bien a Pierrefitte est donc a Saint-Denis
+#   pour l'application, et l'encadrement s'y applique bien.
+# colonnes: code_insee;nom;agglomeration;application
+code_insee;nom;agglomeration;application
+33063;Bordeaux;Bordeaux;totale
+34172;Montpellier;Montpellier;totale
+38057;Bresson;Grenoble-Alpes Métropole;totale
+38111;Claix;Grenoble-Alpes Métropole;totale
+38150;Domène;Grenoble-Alpes Métropole;totale
+38151;Échirolles;Grenoble-Alpes Métropole;partielle
+38158;Eybens;Grenoble-Alpes Métropole;totale
+38169;Fontaine;Grenoble-Alpes Métropole;partielle
+38170;Fontanil-Cornillon;Grenoble-Alpes Métropole;totale
+38179;Gières;Grenoble-Alpes Métropole;totale
+38185;Grenoble;Grenoble-Alpes Métropole;partielle
+38229;Meylan;Grenoble-Alpes Métropole;totale
+38271;Murianette;Grenoble-Alpes Métropole;totale
+38309;Poisat;Grenoble-Alpes Métropole;totale
+38317;Le Pont-de-Claix;Grenoble-Alpes Métropole;partielle
+38382;Saint-Égrève;Grenoble-Alpes Métropole;partielle
+38421;Saint-Martin-d'Hères;Grenoble-Alpes Métropole;partielle
+38474;Sassenage;Grenoble-Alpes Métropole;partielle
+38485;Seyssinet-Pariset;Grenoble-Alpes Métropole;partielle
+38486;Seyssins;Grenoble-Alpes Métropole;totale
+38516;La Tronche;Grenoble-Alpes Métropole;totale
+38524;Varces-Allières-et-Risset;Grenoble-Alpes Métropole;totale
+38533;Venon;Grenoble-Alpes Métropole;totale
+59350;Lille;Lille;totale
+64009;Ahetze;Pays Basque;totale
+64024;Anglet;Pays Basque;totale
+64035;Arbonne;Pays Basque;totale
+64038;Arcangues;Pays Basque;totale
+64065;Ascain;Pays Basque;totale
+64100;Bassussarry;Pays Basque;totale
+64102;Bayonne;Pays Basque;totale
+64122;Biarritz;Pays Basque;totale
+64125;Bidart;Pays Basque;totale
+64130;Biriatou;Pays Basque;totale
+64140;Boucau;Pays Basque;totale
+64189;Ciboure;Pays Basque;totale
+64249;Guéthary;Pays Basque;totale
+64260;Hendaye;Pays Basque;totale
+64282;Jatxou;Pays Basque;totale
+64304;Lahonce;Pays Basque;totale
+64317;Larressore;Pays Basque;totale
+64407;Mouguerre;Pays Basque;totale
+64483;Saint-Jean-de-Luz;Pays Basque;totale
+64496;Saint-Pierre-d'Irube;Pays Basque;totale
+64540;Urcuit;Pays Basque;totale
+64545;Urrugne;Pays Basque;totale
+64547;Ustaritz;Pays Basque;totale
+64558;Villefranque;Pays Basque;totale
+69123;Lyon;Lyon;totale
+69266;Villeurbanne;Villeurbanne;totale
+75056;Paris;Paris;totale
+93001;Aubervilliers;Plaine Commune;totale
+93006;Bagnolet;Est Ensemble;totale
+93008;Bobigny;Est Ensemble;totale
+93010;Bondy;Est Ensemble;totale
+93027;La Courneuve;Plaine Commune;totale
+93031;Épinay-sur-Seine;Plaine Commune;totale
+93039;L'Île-Saint-Denis;Plaine Commune;totale
+93045;Les Lilas;Est Ensemble;totale
+93048;Montreuil;Est Ensemble;totale
+93053;Noisy-le-Sec;Est Ensemble;totale
+93055;Pantin;Est Ensemble;totale
+93061;Le Pré-Saint-Gervais;Est Ensemble;totale
+93063;Romainville;Est Ensemble;totale
+93066;Saint-Denis;Plaine Commune;totale
+93070;Saint-Ouen-sur-Seine;Plaine Commune;totale
+93072;Stains;Plaine Commune;totale
+93079;Villetaneuse;Plaine Commune;totale

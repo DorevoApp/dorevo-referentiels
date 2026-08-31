@@ -1,0 +1,5 @@
+# Seul donnees/ est publie — JAMAIS cles/, ni les sources brutes, ni
+# l historique, ni les guides internes.
+/*
+!/donnees
+!/.gitignore

@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-31",
+  "version": "2026-09-09",
   "articles": [
     {
       "id": "2026-08-31-bienvenue",
@@ -9,6 +9,16 @@
       "corps": "Vous lisez la première.\n\nCe qu’on y trouvera : les **nouveautés** de chaque version, les **informations importantes** sur l’application, et les rappels utiles à votre gestion.\n\nRien n’est envoyé nulle part : l’application va simplement chercher un fichier public, quelques secondes après son ouverture, comme elle le fait déjà pour les listes officielles. Hors ligne, elle affiche la dernière version connue.",
       "liens": [],
       "epingle": false
+    },
+    {
+      "id": "2026-09-09-dpe-gel-loyer",
+      "date": "2026-09-09",
+      "titre": "Actualité - Info DPE",
+      "resume": "DPE : Pas de hausse de loyer automatique après le recalcul de votre note",
+      "corps": "Si votre logement est passé automatiquement de l’étiquette F ou G à E grâce à la réforme du DPE, vous ne pouvez pas augmenter le loyer immédiatement.\n\nLe gouvernement a confirmé en août 2026 que le gel du loyer reste strictement maintenu en cours de bail et lors de sa reconduction tacite. Pour appliquer l’Indice de Référence des Loyers (IRL) ou réajuster votre tarif, vous devez obligatoirement attendre :\n\nL’arrivée d’un nouveau locataire (signature d’un nouveau bail)\n\nLe renouvellement officiel du contrat à son échéance\n\nAstuce : Vous pouvez télécharger gratuitement votre nouvelle attestation DPE directement sur le site de l’ADEME.",
+      "liens": [ { "libelle": "La réponse du ministère", "url": "https://questions.assemblee-nationale.fr/q17/17-12551QE.htm" } ],
+      "epingle": false
     }
+
   ]
 }

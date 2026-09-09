@@ -1,12 +1,12 @@
 {
   "application": "DOREVO LOC",
   "objet": "referentiels",
-  "genere_le": "2026-08-31",
+  "genere_le": "2026-09-09",
   "fichiers": [
-    {"nom": "communes-codes-postaux.csv", "version": "2026-08-31", "octets": 924487, "lignes": 35494, "sha256": "hZGW9/+orx3pjTeZKeSIBodMgTux39Cg/tOMVQgol6U="},
-    {"nom": "zones-tendues.csv", "version": "2026-08-31", "octets": 108110, "lignes": 3690, "sha256": "SxyVxgcrAYPkYAuwuJ7Caa3QriCoSrNw16j6mQ1n18Q="},
-    {"nom": "encadrement-loyers.csv", "version": "2026-08-31", "octets": 4512, "lignes": 69, "sha256": "O19/VU1ePAehtzHdLU9rm5x3Y+F2BfSBSoNrLg9N4Qc="},
-    {"nom": "irl.csv", "version": "2026-08-31", "octets": 1416, "lignes": 27, "sha256": "Lbttg5Gwey03RDa5pvR1tj454EluWWBrv6+qc1yyCNs="},
-    {"nom": "actualites.json", "version": "2026-08-31", "octets": 796, "lignes": 14, "sha256": "irX8I3IRGiv/RoyEK6ZtagUSBjaPLTUH5L/RFe3upNc="}
+    {"nom": "communes-codes-postaux.csv", "version": "2026-09-09", "octets": 924487, "lignes": 35494, "sha256": "5BRl4LpQP21d8ZC+be1LC3PidWzMup5DwzwAiRf9+SI="},
+    {"nom": "zones-tendues.csv", "version": "2026-09-09", "octets": 108110, "lignes": 3690, "sha256": "PIfLOIKWxNEITFnWAYnOqOpqOHh5LAm0+06GuLJyEdQ="},
+    {"nom": "encadrement-loyers.csv", "version": "2026-09-09", "octets": 4512, "lignes": 69, "sha256": "WG8IZETwnzSuEz2MaiZq/wJILShZWfY5Sf2Dw6wAj5c="},
+    {"nom": "irl.csv", "version": "2026-09-09", "octets": 2806, "lignes": 59, "sha256": "UbGMNGV+j3+hC6I61ckE6BITROXwektSao4xUYwYtUY="},
+    {"nom": "actualites.json", "version": "2026-09-09", "octets": 1863, "lignes": 24, "sha256": "78L8zwFkFt5+7hwY2kVFbAUlTSOhnAz09KbfE1s60PU="}
   ]
 }

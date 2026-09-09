@@ -1,6 +1,8 @@
 # DOREVO LOC — indice de reference des loyers (IRL)
-# version: 2026-08-31
-# source: INSEE, serie France metropolitaine, identifiant 001515333
+# version: 2026-09-09
+# source: INSEE — serie France metropolitaine (001515333), collectivite de Corse
+# (010760507) et collectivites de l'article 73 (010760509). Les deux series
+# propres existent depuis le T3 2022 ; avant, l'INSEE publie les memes valeurs.
 #
 # REGLE DE PRIORITE — la table du code prime TOUJOURS.
 #   L'application lit d'abord RevisionRules.indicesConnus. Ce fichier ne sert
@@ -11,8 +13,8 @@
 #
 # Dernier trimestre connu du code au 22/08/2026 : T2 2026.
 # Prochaine publication attendue : T3 2026, vers la mi-octobre 2026.
-# colonnes: annee;trimestre;indice;parution_jo
-annee;trimestre;indice;parution_jo
+# colonnes: annee;trimestre;indice;parution_jo;serie  (serie absente = metropole)
+annee;trimestre;indice;parution_jo;serie
 2020;1;130.57;25/06/2020
 2020;2;130.57;17/07/2020
 2020;3;130.59;16/10/2020
@@ -39,3 +41,37 @@ annee;trimestre;indice;parution_jo
 2025;4;145.78;16/01/2026
 2026;1;146.60;16/04/2026
 2026;2;148.37;12/07/2026
+# --- collectivite de Corse (serie propre depuis le T3 2022) ---
+2022;3;134.30;15/10/2022;corse
+2022;4;135.27;31/01/2023;corse
+2023;1;136.60;16/04/2023;corse
+2023;2;138.55;16/07/2023;corse
+2023;3;136.98;14/10/2023;corse
+2023;4;137.97;18/01/2024;corse
+2024;1;139.33;01/06/2024;corse
+2024;2;143.07;18/07/2024;corse
+2024;3;140.36;16/10/2024;corse
+2024;4;140.48;16/01/2025;corse
+2025;1;141.28;16/04/2025;corse
+2025;2;144.56;13/07/2025;corse
+2025;3;141.58;17/10/2025;corse
+2025;4;141.59;16/01/2026;corse
+2026;1;142.38;16/04/2026;corse
+2026;2;146.22;12/07/2026;corse
+# --- collectivites de l'article 73 (serie propre depuis le T3 2022) ---
+2022;3;134.96;15/10/2022;outremer
+2022;4;135.93;31/01/2023;outremer
+2023;1;137.27;16/04/2023;outremer
+2023;2;139.23;16/07/2023;outremer
+2023;3;138.33;14/10/2023;outremer
+2023;4;139.32;18/01/2024;outremer
+2024;1;140.70;01/06/2024;outremer
+2024;2;143.77;18/07/2024;outremer
+2024;3;141.74;16/10/2024;outremer
+2024;4;141.86;16/01/2025;outremer
+2025;1;142.67;16/04/2025;outremer
+2025;2;145.27;13/07/2025;outremer
+2025;3;142.97;17/10/2025;outremer
+2025;4;142.98;16/01/2026;outremer
+2026;1;143.78;16/04/2026;outremer
+2026;2;146.94;12/07/2026;outremer

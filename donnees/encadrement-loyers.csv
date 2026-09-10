@@ -1,5 +1,5 @@
 # DOREVO LOC — communes appliquant l'encadrement des loyers (loi ELAN)
-# version: 2026-09-09
+# version: 2026-09-10
 # sources: decret n. 2023-981 du 23 octobre 2023 (Pays basque), arretes prefectoraux
 #          des agglomerations concernees ; arrete du 6 janvier 2026 pour Grenoble.
 #
@@ -23,73 +23,76 @@
 #   INSEE : Pierrefitte-sur-Seine a fusionne avec Saint-Denis (93066), qui porte
 #   desormais le code postal 93380. Un bien a Pierrefitte est donc a Saint-Denis
 #   pour l'application, et l'encadrement s'y applique bien.
-# colonnes: code_insee;nom;agglomeration;application
+# LIEN (10/09/2026) — la page officielle des loyers de reference de l'agglomeration,
+#   ouverte depuis l'etape « Obligations legales » du bail. Il vit ICI et non dans
+#   le code : un lien qui casse se repare en publiant ce fichier. https seulement.
+# colonnes: code_insee;nom;agglomeration;application;lien
 code_insee;nom;agglomeration;application
-33063;Bordeaux;Bordeaux;totale
-34172;Montpellier;Montpellier;totale
-38057;Bresson;Grenoble-Alpes Métropole;totale
-38111;Claix;Grenoble-Alpes Métropole;totale
-38150;Domène;Grenoble-Alpes Métropole;totale
-38151;Échirolles;Grenoble-Alpes Métropole;partielle
-38158;Eybens;Grenoble-Alpes Métropole;totale
-38169;Fontaine;Grenoble-Alpes Métropole;partielle
-38170;Fontanil-Cornillon;Grenoble-Alpes Métropole;totale
-38179;Gières;Grenoble-Alpes Métropole;totale
-38185;Grenoble;Grenoble-Alpes Métropole;partielle
-38229;Meylan;Grenoble-Alpes Métropole;totale
-38271;Murianette;Grenoble-Alpes Métropole;totale
-38309;Poisat;Grenoble-Alpes Métropole;totale
-38317;Le Pont-de-Claix;Grenoble-Alpes Métropole;partielle
-38382;Saint-Égrève;Grenoble-Alpes Métropole;partielle
-38421;Saint-Martin-d'Hères;Grenoble-Alpes Métropole;partielle
-38474;Sassenage;Grenoble-Alpes Métropole;partielle
-38485;Seyssinet-Pariset;Grenoble-Alpes Métropole;partielle
-38486;Seyssins;Grenoble-Alpes Métropole;totale
-38516;La Tronche;Grenoble-Alpes Métropole;totale
-38524;Varces-Allières-et-Risset;Grenoble-Alpes Métropole;totale
-38533;Venon;Grenoble-Alpes Métropole;totale
-59350;Lille;Lille;totale
-64009;Ahetze;Pays Basque;totale
-64024;Anglet;Pays Basque;totale
-64035;Arbonne;Pays Basque;totale
-64038;Arcangues;Pays Basque;totale
-64065;Ascain;Pays Basque;totale
-64100;Bassussarry;Pays Basque;totale
-64102;Bayonne;Pays Basque;totale
-64122;Biarritz;Pays Basque;totale
-64125;Bidart;Pays Basque;totale
-64130;Biriatou;Pays Basque;totale
-64140;Boucau;Pays Basque;totale
-64189;Ciboure;Pays Basque;totale
-64249;Guéthary;Pays Basque;totale
-64260;Hendaye;Pays Basque;totale
-64282;Jatxou;Pays Basque;totale
-64304;Lahonce;Pays Basque;totale
-64317;Larressore;Pays Basque;totale
-64407;Mouguerre;Pays Basque;totale
-64483;Saint-Jean-de-Luz;Pays Basque;totale
-64496;Saint-Pierre-d'Irube;Pays Basque;totale
-64540;Urcuit;Pays Basque;totale
-64545;Urrugne;Pays Basque;totale
-64547;Ustaritz;Pays Basque;totale
-64558;Villefranque;Pays Basque;totale
-69123;Lyon;Lyon;totale
-69266;Villeurbanne;Villeurbanne;totale
-75056;Paris;Paris;totale
-93001;Aubervilliers;Plaine Commune;totale
-93006;Bagnolet;Est Ensemble;totale
-93008;Bobigny;Est Ensemble;totale
-93010;Bondy;Est Ensemble;totale
-93027;La Courneuve;Plaine Commune;totale
-93031;Épinay-sur-Seine;Plaine Commune;totale
-93039;L'Île-Saint-Denis;Plaine Commune;totale
-93045;Les Lilas;Est Ensemble;totale
-93048;Montreuil;Est Ensemble;totale
-93053;Noisy-le-Sec;Est Ensemble;totale
-93055;Pantin;Est Ensemble;totale
-93061;Le Pré-Saint-Gervais;Est Ensemble;totale
-93063;Romainville;Est Ensemble;totale
-93066;Saint-Denis;Plaine Commune;totale
-93070;Saint-Ouen-sur-Seine;Plaine Commune;totale
-93072;Stains;Plaine Commune;totale
-93079;Villetaneuse;Plaine Commune;totale
+33063;Bordeaux;Bordeaux;totale;https://www.gironde.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-construction-logement/Habitat-logement/Encadrement-des-loyers-a-Bordeaux/Dispositif-d-encadrement-des-loyers
+34172;Montpellier;Montpellier;totale;https://data.montpellier3m.fr/dataset/encadrement-des-loyers-sur-la-commune-de-montpellier
+38057;Bresson;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38111;Claix;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38150;Domène;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38151;Échirolles;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38158;Eybens;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38169;Fontaine;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38170;Fontanil-Cornillon;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38179;Gières;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38185;Grenoble;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38229;Meylan;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38271;Murianette;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38309;Poisat;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38317;Le Pont-de-Claix;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38382;Saint-Égrève;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38421;Saint-Martin-d'Hères;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38474;Sassenage;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38485;Seyssinet-Pariset;Grenoble-Alpes Métropole;partielle;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38486;Seyssins;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38516;La Tronche;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38524;Varces-Allières-et-Risset;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+38533;Venon;Grenoble-Alpes Métropole;totale;https://www.grenoblealpesmetropole.fr/940-me-renseigner-sur-l-encadrement-des-loyers.htm
+59350;Lille;Lille;totale;https://encadrement-loyers.lille.fr/
+64009;Ahetze;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64024;Anglet;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64035;Arbonne;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64038;Arcangues;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64065;Ascain;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64100;Bassussarry;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64102;Bayonne;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64122;Biarritz;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64125;Bidart;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64130;Biriatou;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64140;Boucau;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64189;Ciboure;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64249;Guéthary;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64260;Hendaye;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64282;Jatxou;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64304;Lahonce;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64317;Larressore;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64407;Mouguerre;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64483;Saint-Jean-de-Luz;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64496;Saint-Pierre-d'Irube;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64540;Urcuit;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64545;Urrugne;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64547;Ustaritz;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+64558;Villefranque;Pays Basque;totale;https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Logement/Encadrement-des-loyers-Zone-tendue-du-Pays-basque
+69123;Lyon;Lyon;totale;https://www.data.gouv.fr/datasets/encadrement-des-loyers-de-la-metropole-de-lyon-2025-2026
+69266;Villeurbanne;Villeurbanne;totale;https://www.data.gouv.fr/datasets/encadrement-des-loyers-de-la-metropole-de-lyon-2025-2026
+75056;Paris;Paris;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/arretes-fixant-les-loyers-de-reference-les-loyers-a291.html
+93001;Aubervilliers;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93006;Bagnolet;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93008;Bobigny;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93010;Bondy;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93027;La Courneuve;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93031;Épinay-sur-Seine;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93039;L'Île-Saint-Denis;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93045;Les Lilas;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93048;Montreuil;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93053;Noisy-le-Sec;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93055;Pantin;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93061;Le Pré-Saint-Gervais;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93063;Romainville;Est Ensemble;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93066;Saint-Denis;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93070;Saint-Ouen-sur-Seine;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93072;Stains;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html
+93079;Villetaneuse;Plaine Commune;totale;https://www.drihl.ile-de-france.developpement-durable.gouv.fr/encadrement-des-loyers-r74.html

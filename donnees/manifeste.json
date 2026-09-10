@@ -1,12 +1,13 @@
 {
   "application": "DOREVO LOC",
   "objet": "referentiels",
-  "genere_le": "2026-09-09",
+  "genere_le": "2026-09-10",
   "fichiers": [
     {"nom": "communes-codes-postaux.csv", "version": "2026-09-09", "octets": 924487, "lignes": 35494, "sha256": "5BRl4LpQP21d8ZC+be1LC3PidWzMup5DwzwAiRf9+SI="},
     {"nom": "zones-tendues.csv", "version": "2026-09-09", "octets": 108110, "lignes": 3690, "sha256": "PIfLOIKWxNEITFnWAYnOqOpqOHh5LAm0+06GuLJyEdQ="},
-    {"nom": "encadrement-loyers.csv", "version": "2026-09-09", "octets": 4512, "lignes": 69, "sha256": "WG8IZETwnzSuEz2MaiZq/wJILShZWfY5Sf2Dw6wAj5c="},
+    {"nom": "encadrement-loyers.csv", "version": "2026-09-10", "octets": 11684, "lignes": 69, "sha256": "+mPJdIEF870N5R29uvU4ep3BdxVV2Ln8LdtK5Ss314Q="},
     {"nom": "irl.csv", "version": "2026-09-09", "octets": 2806, "lignes": 59, "sha256": "UbGMNGV+j3+hC6I61ckE6BITROXwektSao4xUYwYtUY="},
+    {"nom": "loyers-reference-paris.csv", "version": "2026-09-10", "octets": 143914, "lignes": 3584, "sha256": "8FuNe1qmKJB6P2yCRhAjnkWEVmscvA/Bh/Hlmby3gow="},
     {"nom": "actualites.json", "version": "2026-09-09", "octets": 1867, "lignes": 24, "sha256": "k8ckcnP4RnE5KN1N2SgFoojy0QtdNpOI7wwnjmoRP18="}
   ]
 }

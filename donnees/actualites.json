@@ -1,6 +1,20 @@
 {
-  "version": "2026-09-09",
+  "version": "2026-10-19",
   "articles": [
+    {
+      "id": "2026-10-19-irl-t3-2026",
+      "date": "2026-10-19",
+      "titre": "IRL du 3e trimestre 2026 : +1,57 %",
+      "resume": "L’indice de référence des loyers du 3e trimestre 2026 est paru au Journal officiel le 16 octobre 2026.",
+      "corps": "L’INSEE a publié le **15 octobre 2026** l’indice de référence des loyers (IRL) du 3e trimestre 2026, paru au Journal officiel le **16 octobre 2026**. Il augmente de **1,57 %** sur un an.\n\n- Métropole : **148,06**\n\n- Corse : **143,80**\n\n- Outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) : **145,21**\n\n**Qui est concerné ?** Les baux dont la clause de révision se réfère au 3e trimestre. Le trimestre de référence est celui que le contrat indique, et Dorevo LOC l’affiche dans l’onglet Général de chaque bail.\n\n**Exemple :** un loyer de 800 € révisé avec l’indice de métropole passe au plus à 800 × 148,06 / 145,77 = **812,56 €**.\n\n**Dans l’application :** l’indice est déjà intégré. Le jour anniversaire de vos baux, Dorevo LOC vous proposera la révision, avec le nouveau montant et le courrier pour votre locataire. Pour le recevoir tout de suite, ouvrez *Réglages*, puis « Vérifier maintenant ».\n\nUne révision n’est jamais rétroactive. Faute de l’avoir demandée dans l’année qui suit la date prévue au bail, vous renoncez à celle de l’année écoulée. Un logement classé F ou G ne peut pas être révisé : le loyer est gelé.",
+      "liens": [
+        {
+          "libelle": "La publication de l’INSEE",
+          "url": "https://www.insee.fr/fr/statistiques/9081853"
+        }
+      ],
+      "epingle": false
+    },
     {
       "id": "2026-08-31-bienvenue",
       "date": "2026-08-31",
@@ -16,9 +30,13 @@
       "titre": "Actualité - Info DPE",
       "resume": "DPE : Pas de hausse de loyer automatique après le recalcul de votre note",
       "corps": "Si votre logement est passé automatiquement de l’étiquette F ou G à E grâce à la réforme du DPE, vous ne pouvez pas augmenter le loyer immédiatement.\n\nLe gouvernement a confirmé en août 2026 que le gel du loyer reste strictement maintenu en cours de bail et lors de sa reconduction tacite. Pour appliquer l’Indice de Référence des Loyers (IRL) ou réajuster votre tarif, vous devez obligatoirement attendre :\n\n- L’arrivée d’un nouveau locataire (signature d’un nouveau bail)\n\n- Le renouvellement officiel du contrat à son échéance\n\nAstuce : Vous pouvez télécharger gratuitement votre nouvelle attestation DPE directement sur le site de l’ADEME.",
-      "liens": [ { "libelle": "La réponse du ministère", "url": "https://questions.assemblee-nationale.fr/q17/17-12551QE.htm" } ],
+      "liens": [
+        {
+          "libelle": "La réponse du ministère",
+          "url": "https://questions.assemblee-nationale.fr/q17/17-12551QE.htm"
+        }
+      ],
       "epingle": false
     }
-
   ]
 }
